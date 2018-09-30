@@ -1,6 +1,8 @@
 package main
 
 import "fmt"
+import m "./funcfolder"
+
 
 func main() {
 
@@ -9,6 +11,7 @@ func main() {
 	third := thirdLine
 	third()
 	fourthLine(22)
+	m.FirstLoop()
 }
 
 func nextLine() {
@@ -25,3 +28,5 @@ func fourthLine(x int) {
 
 	fmt.Println("fourth line-- ", x)
 }
+
+
