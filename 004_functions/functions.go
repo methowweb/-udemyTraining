@@ -3,7 +3,6 @@ package main
 import "fmt"
 import m "./funcfolder"
 
-
 func main() {
 
 	fmt.Println("hello again")
@@ -28,5 +27,3 @@ func fourthLine(x int) {
 
 	fmt.Println("fourth line-- ", x)
 }
-
-
